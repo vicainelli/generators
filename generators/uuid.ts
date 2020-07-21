@@ -1,3 +1,6 @@
+/**
+ * @description Returns a random uuid v4.
+ */
 export const uuid = () : string => {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
     const r = (Math.random() * 16) | 0,
