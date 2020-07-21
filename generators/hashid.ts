@@ -1,3 +1,8 @@
+/**
+ * @description Returns a ramdon string.
+ * @param {'Number'} size
+ */
+
 export const hashid = (size = 3) : string => {
   let uuid:string= "";
   const dictionary =
