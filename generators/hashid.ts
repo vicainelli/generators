@@ -1,4 +1,4 @@
-export const useId = (size = 3) : string => {
+export const hashid = (size = 3) : string => {
   let uuid:string= "";
   const dictionary =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
