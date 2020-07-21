@@ -1,5 +1,5 @@
 /**
- * @description Returns a ramdon string.
+ * @description Returns a ramdon random.
  * @param {'Number'} size
  */
 
